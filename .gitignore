@@ -1,0 +1,10 @@
+# Mac-Systemdateien ignorieren
+.DS_Store
+
+# Große Datendateien ignorieren
+*.csv
+*.gz
+*.parquet
+
+# Ordner ignorieren
+Compustat/
