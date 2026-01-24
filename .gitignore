@@ -8,3 +8,5 @@
 
 # Ordner ignorieren
 Compustat/
+venv/
+__pycache__/
