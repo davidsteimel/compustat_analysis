@@ -34,7 +34,7 @@ class CompanyProfil:
             if len(matches) == 1:
                 full_name = matches[0]
                 print(f"Found column {full_name}")
-                return self.data[full_name]
+                found_columns.append(full_name)
             
             elif len(matches) > 1:
                 print(f"Warning: '{key}' is not unique. Could be: {matches}")
