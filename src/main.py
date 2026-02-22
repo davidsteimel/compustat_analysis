@@ -8,7 +8,8 @@ import csv
 
 def main():
     path_part1 = 'Compustat/data/1-Part-Compustat_NA.csv'
-    df = load_data(path_part1, rows=10000, sep='\t')
+    df = load_data(path_part1, rows=20000, sep='\t')
+    #print(df.columns.tolist())
 
     if df is None:
         return
