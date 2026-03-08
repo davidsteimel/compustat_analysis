@@ -1,5 +1,7 @@
 # Mac-Systemdateien ignorieren
 .DS_Store
+*.pyc
+
 
 # Große Datendateien ignorieren
 *.csv
@@ -8,5 +10,6 @@
 
 # Ordner ignorieren
 Compustat/
+crspdata/
 venv/
 __pycache__/
